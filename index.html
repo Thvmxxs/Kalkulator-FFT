@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Berat Ideal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>FFT KLINIK</h1>
+        <nav>
+            <button class="menu-toggle" id="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Halo Pejuang Sehat, Selamat Datang Di Kalkulator Berat Ideal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Rumus</th>
+                    <th>Berat Ideal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Robinson (1983)</td>
+                    <td>XX KG</td>
+                </tr>
+                <tr>
+                    <td>Miller (1983)</td>
+                    <td>XX KG</td>
+                </tr>
+                <tr>
+                    <td>Devine (1974)</td>
+                    <td>XX KG</td>
+                </tr>
+                <tr>
+                    <td>Hamwi (1964)</td>
+                    <td>XX KG</td>
+                </tr>
+                <tr>
+                    <td>Boer (1982)</td>
+                    <td>XX KG</td>
+                </tr>
+            </tbody>
+        </table>
+        <section id="form-section">
+            <h3>Kalkulator Formulir</h3>
+            <form id="bmi-form">
+                <label for="gender">Jenis Kelamin:</label>
+                <select name="gender" id="gender">
+                    <option value="male">Pria</option>
+                    <option value="female">Wanita</option>
+                </select>
+                <label for="height">Tinggi Badan (cm):</label>
+                <input type="number" name="height" id="height" min="50" max="250" required>
+                <button type="submit">Hitung</button>
+            </form>
+        </section>
+        <section>
+            <p><strong>Pemberitahuan:</strong> Hasil Kalkulator Ini Hanya Untuk Referensi Dan Bukan Pengganti Nasihat Medis Profesional</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FFT KLINIK. Semua Hak Dilindungi.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
